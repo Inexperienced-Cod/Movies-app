@@ -1,0 +1,65 @@
+.m{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-items:flex-start;
+  align-content: flex-start;
+justify-content: center;
+
+}
+
+
+
+
+
+img{
+  width: 70%;
+height: 33vh;
+object-fit:fill;
+border-radius: 1rem;
+margin-bottom: 1rem;
+}
+
+
+
+h2{
+  font-size: 0.8rem;
+  padding-left: 10%;
+}
+
+.container button{
+  margin-right: 2rem;
+  min-width: 5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid sandybrown;
+  background: #fff;
+  color: rgb(2, 84, 138);
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+cursor: pointer;
+
+}
+
+button.active{
+  background:rgb(2, 84, 138);
+  color: #fff;
+
+}
+
+section{
+  height: 50vh;
+  width: 100%;
+  background: url('../src/img/index.webp');
+  margin-bottom: 7rem;
+  object-fit: contain;
+  
+}
+
+
+.container{
+  display: flex;
+   flex-direction: row;
+   align-content: center;
+   align-items: center;
+   justify-content: center;
+}
